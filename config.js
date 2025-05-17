@@ -1,17 +1,17 @@
 
 // Wellcome Here you can Configure your Site with Ease 
 
-export let yourServerName = "Your Server Name"; // Change this to Your Server name
-let yourDiscordLink = "https://discord.gg/your-server-link"; // Your Discord Link (Make sure to include https://)
-let yourSupportEmail = "support@your-server.com"; // Your Support Email 
-export let ServerIP = "your.server.ip"; // Your Server IP
+export let yourServerName = "vinaty"; // Change this to Your Server name
+let yourDiscordLink = "https://discord.gg/eYbFBqmjUU"; // Your Discord Link (Make sure to include https://)
+let yourSupportEmail = "vinatynetwork@outlook.com"; // Your Support Email 
+export let ServerIP = "vinaty.my.id"; // Your Server IP
 
 
 
 export const staffData = {
-    "Owner": ["_JustHaider"], // Put your staff members username in respected place
-    "Manager": ["Steve"],    // If you leave a rank empty it won't be displayed
-    "Admin": ["Alex"],
+    "Owner": ["sxzmil"], // Put your staff members username in respected place
+    "Manager/Dev": ["gubnnna"],    // If you leave a rank empty it won't be displayed
+    "Admin": ["firgun"],
     "JrAdmin": [],
     "SrMod": [],
     "Mod+": [],
@@ -36,46 +36,46 @@ export const rankColors = {
 // You can add as much rules as you want, but make sure to keep the format the same
 
 export const rules = {
-    serverName: "Your Server",
+    serverName: "Vinaty",
     rulesList: [
         {
-            rule: "No cheating or hacking.",
-            details: "Using any third-party software to gain an unfair advantage is strictly prohibited.",
+            rule: "No cheating atau hacking.",
+            details: "Menggunakan perangkat lunak pihak ketiga untuk mendapatkan keuntungan yang tidak adil adalah dilarang.",
             punishment: "Permanent ban."
         },
         {
-            rule: "Be respectful to other players.",
-            details: "Toxicity, harassment, or bullying will not be tolerated.",
+            rule: "Bersikaplah hormat kepada pemain lain.",
+            details: "Toksisitas, pelecehan, atau perundungan tidak akan ditoleransi.",
             punishment: "Warning → Mute → Temporary ban."
         },
         {
-            rule: "No spamming in chat.",
-            details: "Avoid excessive messages, caps, or repeated commands.",
+            rule: "No spamming di chat.",
+            details: "Hindari mengirim pesan yang berlebihan, huruf kapital, atau perintah yang diulang.",
             punishment: "Mute for 30 minutes → Longer mute for repeat offenses."
         },
         {
-            rule: "Do not exploit bugs or glitches.",
-            details: "If you find a bug, report it instead of abusing it.",
+            rule: "Jangan mengeksploitasi bug atau kesalahan.",
+            details: "Jika Anda menemukan bug, laporkanlah daripada menyalahgunakannya.",
             punishment: "Temporary ban → Permanent ban if repeated."
         },
         {
-            rule: "No offensive language or harassment.",
-            details: "Hate speech, slurs, or threats will result in punishment.",
+            rule: "Tidak ada bahasa ofensif atau pelecehan.",
+            details: "Ujaran kebencian, kata-kata kasar, atau ancaman akan mengakibatkan hukuman.",
             punishment: "Immediate mute → Ban for severe cases."
         },
         {
-            rule: "Follow staff instructions at all times.",
-            details: "Disrespecting staff may lead to punishments.",
+            rule: "Ikuti petunjuk staf setiap saat.",
+            details: "Tidak menghormati staf dapat mengakibatkan hukuman.",
             punishment: "Warning → Kick → Temporary ban."
         },
         {
-            rule: "No advertising other servers.",
-            details: "Promoting other servers in chat or DMs is not allowed.",
+            rule: "Tidak ada iklan server lain.",
+            details: "Mempromosikan server lain di obrolan atau DM tidak diperbolehkan.",
             punishment: "Immediate mute → Ban for repeated offenses."
         },
         {
-            rule: "Do not use inappropriate usernames or skins.",
-            details: "Names or skins containing offensive content must be changed.",
+            rule: "Jangan menggunakan nama pengguna atau skin yang tidak pantas.",
+            details: "di larang mengunakan nama yang tidak sopan atau skin yang tidak sopan",
             punishment: "Kick → Ban if not changed."
         }
     ]
@@ -87,24 +87,24 @@ export const faq = {
     sectionTitle: "Frequently Asked Questions",
     questionsList: [
         {
-            question: "How do I join the server?",
-            answer: "Use our server IP: <code>play.example.com</code> in your Minecraft client."
+            question: "Bagaimana cara saya bergabung dengan server?",
+            answer: "Gunakan kami server IP: <code>vinaty.my.id/code> di klien Minecraft Anda."
         },
         {
             question: "What version does the server support?",
-            answer: "We support Minecraft Java Edition 1.20.1 and above."
+            answer: "Kami mendukung Minecraft Java Edition 1.8 - 1.21.5 (disarankan 1.21+) dan yang lebih baru."
         },
         {
-            question: "How can I become a staff member?",
-            answer: "Apply on our Discord server when applications are open. You need to be an active member for at least 1 month."
+            question: "Bagaimana saya bisa menjadi anggota staf?",
+            answer: "Lamar di server Discord kami ketika perekrutan dibuka. Anda perlu menjadi anggota aktif selama setidaknya 1 bulan."
         },
         {
-            question: "Are there any banned items?",
-            answer: "Check our #server-info Discord channel for the current list of restricted items."
+            question: "Apakah ada barang yang dilarang?",
+            answer: "Periksa saluran #server-info di Discord kami untuk daftar item yang dibatasi saat ini."
         },
         {
-            question: "How do I report a player?",
-            answer: "Use <code>/report <player> <reason></code> in-game or make a ticket on Discord."
+            question: "Bagaimana cara melaporkan seorang pemain?",
+            answer: "Gunakan <code>/report <pemain> <alasan></code> di dalam game atau buat tiket di Discord."
         }
         
     ]
